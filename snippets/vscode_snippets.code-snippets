@@ -1,0 +1,507 @@
+{
+  "Bmat": {
+    "scope": "latex",
+    "prefix": "bmat",
+    "body": [
+      "\\begin{bmatrix} ${0} \\end{bmatrix}"
+    ],
+    "description": "TeX Bmat"
+  },
+  "Pi": {
+    "scope": "latex",
+    "prefix": "pi",
+    "body": [
+      "\\pi${0}"
+    ],
+    "description": "TeX Pi"
+  },
+  "Defbox": {
+    "scope": "latex",
+    "prefix": "defbox",
+    "body": [
+      "\\begin{definition}{Definition: ${1}}",
+      "${0}",
+      "\\end{definition}"
+    ],
+    "description": "TeX Defbox"
+  },
+  "Bmat33": {
+    "scope": "latex",
+    "prefix": "bmat33",
+    "body": [
+      "\\begin{bmatrix} ${1}& ${2}& ${3} \\\\\\ ",
+      "                ${4}& ${5}& ${6} \\\\\\",
+      "                ${7}& ${8}& ${9}\\end{bmatrix} ${0}"
+    ],
+    "description": "TeX Bmat33"
+  },
+  "Incfigs": {
+    "scope": "latex",
+    "prefix": "incfigs",
+    "body": [
+      "\\begin{figure}[ht!]",
+      "\\centering",
+      "\\subfloat[]{\\includegraphics[width=70mm,height = 50mm]{${1:example}.PNG}}",
+      "\\subfloat[]{\\includegraphics[width=70mm,height = 50mm]{${2:example}.PNG}}\\\\",
+      "\\subfloat[]{\\includegraphics[width=70mm,height = 50mm]{${3:example}.PNG}}",
+      "\\end{figure}",
+      "${0}"
+    ],
+    "description": "TeX Incfigs"
+  },
+  "Us": {
+    "scope": "latex",
+    "prefix": "us",
+    "body": [
+      "\\underset{${1}}{${2}}${0}"
+    ],
+    "description": "TeX Us"
+  },
+  "Ra": {
+    "scope": "latex",
+    "prefix": "RA",
+    "body": [
+      "\\Rightarrow"
+    ],
+    "description": "TeX Ra"
+  },
+  "__": {
+    "scope": "latex",
+    "prefix": "__",
+    "body": [
+      "_{${0}}"
+    ],
+    "description": "TeX __"
+  },
+  "Begeq": {
+    "scope": "latex",
+    "prefix": "begeq",
+    "body": [
+      "\\begin{equation}",
+      "\\begin{aligned}",
+      "${0}",
+      "\\end{aligned}",
+      "\\end{equation}"
+    ],
+    "description": "TeX Begeq"
+  },
+  "Pr": {
+    "scope": "latex",
+    "prefix": "pr",
+    "body": [
+      "\\prime${0}"
+    ],
+    "description": "TeX Pr"
+  },
+  "Case": {
+    "scope": "latex",
+    "prefix": "case",
+    "body": [
+      "\\begin{cases}",
+      "1, \\quad ${1} \\\\\\",
+      "2, \\quad ${2}",
+      "\\end{cases} ${0}"
+    ],
+    "description": "TeX Case"
+  },
+  "Os": {
+    "scope": "latex",
+    "prefix": "os",
+    "body": [
+      "\\overset{${1}}{${2}}${0}"
+    ],
+    "description": "TeX Os"
+  },
+  "Bmat22": {
+    "scope": "latex",
+    "prefix": "bmat22",
+    "body": [
+      "\\begin{bmatrix} ${1}& ${2} \\\\\\ ",
+      "                ${3}& ${4}\\end{bmatrix} ${0}"
+    ],
+    "description": "TeX Bmat22"
+  },
+  "Hat": {
+    "scope": "latex",
+    "prefix": "hat",
+    "body": [
+      "\\hat{${1}}${0}"
+    ],
+    "description": "TeX Hat"
+  },
+  "Mk": {
+    "scope": "latex",
+    "prefix": "mk",
+    "body": [
+      "\\$${0}\\$"
+    ],
+    "description": "TeX Mk"
+  },
+  "Table": {
+    "scope": "latex",
+    "prefix": "table",
+    "body": [
+      "\\begin{table}[ht!]",
+      "\\centering",
+      "\\begin{tabular}{lll}\\hline",
+      " ${0}&  &  \\\\\\",
+      " &  &  \\\\\\",
+      " &  & \\\\\\ \\hline",
+      "\\end{tabular}",
+      "\\caption{example}",
+      "\\label{tab:tab1}",
+      "\\end{table}"
+    ],
+    "description": "TeX Table"
+  },
+  "//": {
+    "scope": "latex",
+    "prefix": "fr",
+    "body": [
+      "\\frac{${1}} {${2}} ${0}"
+    ],
+    "description": "TeX //"
+  },
+  "Bprob": {
+    "scope": "latex",
+    "prefix": "bprob",
+    "body": [
+      "p[${0}|]"
+    ],
+    "description": "TeX Bprob"
+  },
+  "Pmat": {
+    "scope": "latex",
+    "prefix": "pmat",
+    "body": [
+      "\\begin{pmatrix} ${0} \\end{pmatrix}"
+    ],
+    "description": "TeX Pmat"
+  },
+  "Int": {
+    "scope": "latex",
+    "prefix": "int",
+    "body": [
+      "\\int ${1}\\,\\text{d${2}}${0}"
+    ],
+    "description": "TeX Int"
+  },
+  "Abs": {
+    "scope": "latex",
+    "prefix": "abs",
+    "body": [
+      "|${1}|${0}"
+    ],
+    "description": "TeX Abs"
+  },
+  "Pprob": {
+    "scope": "latex",
+    "prefix": "pprob",
+    "body": [
+      "p(${0}|)"
+    ],
+    "description": "TeX Pprob"
+  },
+  "Rtab": {
+    "scope": "latex",
+    "prefix": "rtab",
+    "body": [
+      "\\ref{tab:${1}}${0}"
+    ],
+    "description": "TeX Rtab"
+  },
+  "Dint": {
+    "scope": "latex",
+    "prefix": "dint",
+    "body": [
+      "\\int_{${1:-\\infty}}^{${2:\\infty}} ${3}\\,\\text{d${4}}${0}"
+    ],
+    "description": "TeX Dint"
+  },
+  "Inf": {
+    "scope": "latex",
+    "prefix": "inf",
+    "body": [
+      "\\infty"
+    ],
+    "description": "TeX Inf"
+  },
+  "Wbox": {
+    "scope": "latex",
+    "prefix": "wbox",
+    "body": [
+      "\\begin{wbox}{${1}}",
+      "${2}",
+      "\\end{wbox}",
+      "$s0"
+    ],
+    "description": "TeX Wbox"
+  },
+  "Tex": {
+    "scope": "latex",
+    "prefix": "tex",
+    "body": [
+      "\\text{${0}}"
+    ],
+    "description": "TeX Tex"
+  },
+  "Ssec": {
+    "scope": "latex",
+    "prefix": "ssec",
+    "body": [
+      "\\subsection*{${1}}",
+      "${0}"
+    ],
+    "description": "TeX Ssec"
+  },
+  "Bar": {
+    "scope": "latex",
+    "prefix": "bar",
+    "body": [
+      "\\overline{${1}}${0}"
+    ],
+    "description": "TeX Bar"
+  },
+  "Mc": {
+    "scope": "latex",
+    "prefix": "mc",
+    "body": [
+      "\\mathcal{${1}}${0}"
+    ],
+    "description": "TeX Mc"
+  },
+  "Exbox": {
+    "scope": "latex",
+    "prefix": "exbox",
+    "body": [
+      "\\begin{example}{Example: ${1}}",
+      "${0}",
+      "\\end{example}"
+    ],
+    "description": "TeX Exbox"
+  },
+  "Lra": {
+    "scope": "latex",
+    "prefix": "lra",
+    "body": [
+      "\\Leftrightarrow"
+    ],
+    "description": "TeX Lra"
+  },
+  "Template": {
+    "scope": "latex",
+    "prefix": "template",
+    "body": [
+      "\\documentclass[a4paper]{article}",
+      "",
+      "\\usepackage[utf8]{inputenc}",
+      "\\usepackage[T1]{fontenc}",
+      "\\usepackage{textcomp}",
+      "\\usepackage[english]{babel}",
+      "\\usepackage{amsmath, amssymb}",
+      "\\usepackage{natbib}",
+      "\\usepackage{float} ",
+      "\\usepackage[caption = false]{subfig}",
+      "\\usepackage{listings}",
+      "\\lstset{",
+      "    breaklines=true,",
+      "    basicstyle=\\tt\\normalsize,",
+      "    keywordstyle=\\color{blue},",
+      "    identifierstyle=\\color{magenta},",
+      "    frame = single",
+      "} ",
+      "% figure support",
+      "\\usepackage{import}",
+      "\\usepackage{xifthen}",
+      "\\pdfminorversion=7",
+      "\\usepackage{pdfpages}",
+      "\\usepackage{transparent}",
+      "\\pdfsuppresswarningpagegroup=1",
+      "",
+      "\\title{Test title}",
+      "\\author{Linus Falk}",
+      "\\begin{document}",
+      "\\maketitle",
+      "\\section{Introduction}",
+      "",
+      "",
+      "\\bibliographystyle{unsrt}",
+      "\\bibliography{references}",
+      "\\end{document}"
+    ],
+    "description": "TeX Template"
+  },
+  "Sec": {
+    "scope": "latex",
+    "prefix": "sec",
+    "body": [
+      "\\section{${1}}",
+      "${0}"
+    ],
+    "description": "TeX Sec"
+  },
+  "Prob": {
+    "scope": "latex",
+    "prefix": "prob",
+    "body": [
+      "(${0}|)"
+    ],
+    "description": "TeX Prob"
+  },
+  "Sp": {
+    "scope": "latex",
+    "prefix": "sp",
+    "body": [
+      "s^{\\prime}${0}"
+    ],
+    "description": "TeX Sp"
+  },
+  "Mb": {
+    "scope": "latex",
+    "prefix": "mb",
+    "body": [
+      "\\mathbb{${1}}${0}"
+    ],
+    "description": "TeX Mb"
+  },
+  "It": {
+    "scope": "latex",
+    "prefix": "it",
+    "body": [
+      "\\\\item"
+    ],
+    "description": "TeX It"
+  },
+  "Beg": {
+    "scope": "latex",
+    "prefix": "beg",
+    "body": [
+      "\\begin{${1}}",
+      "${0}",
+      "\\end{${1}}"
+    ],
+    "description": "TeX Beg"
+  },
+  "Rfig": {
+    "scope": "latex",
+    "prefix": "rfig",
+    "body": [
+      "\\ref{fig:${1}}${0}"
+    ],
+    "description": "TeX Rfig"
+  },
+  "Bellman": {
+    "scope": "latex",
+    "prefix": "bellman",
+    "body": [
+      "\\sum_{a}^{} \\pi (a|s) \\sum_{s^{\\prime}, r}^{}p(s^{\\prime},r |s,a)[r+\\gamma v_\\pi(s^{\\prime})]${0}"
+    ],
+    "description": "TeX Bellman"
+  },
+  "Bf": {
+    "scope": "latex",
+    "prefix": "bf",
+    "body": [
+      "\\textbf{${1}}${0}"
+    ],
+    "description": "TeX Bf"
+  },
+  "Par": {
+    "scope": "latex",
+    "prefix": "par",
+    "body": [
+      "\\left( ${0} \\right)"
+    ],
+    "description": "TeX Par"
+  },
+  "...": {
+    "scope": "latex",
+    "prefix": "...",
+    "body": [
+      "\\ldots"
+    ],
+    "description": "TeX ..."
+  },
+  "Beglst": {
+    "scope": "latex",
+    "prefix": "beglst",
+    "body": [
+      "\\begin{lstlisting}[language=${1}]",
+      "${0}",
+      "\\end{lstlisting}"
+    ],
+    "description": "TeX Beglst"
+  },
+  "Incfig": {
+    "scope": "latex",
+    "prefix": "incfig",
+    "body": [
+      "\\begin{figure}[ht!]",
+      "\\centering",
+      "\\includegraphics[width=80mm]{${1:example}.png}",
+      "\\caption{${2:Example of caption}}",
+      "\\label{fig:${3:example}}",
+      "\\end{figure}",
+      "${0}"
+    ],
+    "description": "TeX Incfig"
+  },
+  "Sum": {
+    "scope": "latex",
+    "prefix": "sum",
+    "body": [
+      "\\sum_{k=${0}}^{}"
+    ],
+    "description": "TeX Sum"
+  },
+  "Brob": {
+    "scope": "latex",
+    "prefix": "brob",
+    "body": [
+      "[${0}|]"
+    ],
+    "description": "TeX Brob"
+  },
+  "Bege": {
+    "scope": "latex",
+    "prefix": "bege",
+    "body": [
+      "\\begin{equation}",
+      "${0}",
+      "\\end{equation}"
+    ],
+    "description": "TeX Bege"
+  },
+  "Emp": {
+    "scope": "latex",
+    "prefix": "emp",
+    "body": [
+      "\\emph{${1}}${0}"
+    ],
+    "description": "TeX Emp"
+  },
+  " td": {
+    "scope": "latex",
+    "prefix": " td",
+    "body": [
+      "^{${0}}"
+    ],
+    "description": "TeX  td"
+  },
+  "Tc": {
+    "scope": "latex",
+    "prefix": "tc",
+    "body": [
+      "\\textcolor{${1:red}}{${0}}"
+    ],
+    "description": "TeX Tc"
+  },
+  "Norm": {
+    "scope": "latex",
+    "prefix": "norm",
+    "body": [
+      "||${1}||${0}"
+    ],
+    "description": "TeX Norm"
+  }
+}
