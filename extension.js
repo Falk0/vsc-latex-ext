@@ -105,7 +105,7 @@ function getWebviewContent() {
             <title>LaTeX Table Generator</title>
         </head>
         <body>
-            <h1>LaTeX Generator</h1>
+            <h1>LaTeX Table Generator</h1>
             <form id="generator-form">
                 <label for="prompt-input">Prompt:</label>
                 <textarea id="prompt-input" style="width: 100%; height: 200px;"></textarea>
