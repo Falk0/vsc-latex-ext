@@ -366,7 +366,7 @@
   },
   "It": {
     "scope": "latex",
-    "prefix": "it",
+    "prefix": "te",
     "body": [
       "\\\\item"
     ],
@@ -503,5 +503,26 @@
       "||${1}||${0}"
     ],
     "description": "TeX Norm"
+  },
+  "LaTeX item": {
+    "scope": "latex",
+    "prefix": "item",
+    "body": [
+      "\\begin{itemize}",
+      "\t\\item ${1:content}",
+      "\\end{itemize}"
+    ],
+    "description": "LaTeX item for lists"
+  },
+  "LaTeX enum": {
+    "scope": "latex",
+    "prefix": "enum",
+    "body": [
+      "\\begin{enumerate}",
+      "\t\\item ${1:first_item}",
+      "\t\\item ${2:second_item}",
+      "\\end{enumerate}"
+    ],
+    "description": "LaTeX enumerated list"
   }
 }
