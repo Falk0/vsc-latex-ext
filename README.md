@@ -1,5 +1,6 @@
 # latexgpt README
 My first VS Code extension. Featuring my converted Sublime text Latex snippets and a chatGPT powered table generator.
+I'm also testing the capabilites of using chatGPT4 for coding within this project. No prev. experience with javascript
 
 ## Features
 
